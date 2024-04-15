@@ -1,12 +1,13 @@
-# Dependecias de los ejercicios en js
+## 1. Contraseña válida
 
-- prompt-sync
+Escribir una función llamada `contrasenaValida` que reciba un string y retorne `true` si el string es igual a "2Fj(jjbFsuj" o "eoZiugBf&g9". De lo contrario debe retornar `false`.
 
+```js
+// escribe tu respuesta acá
 
-
-Copie y pegue el siguiente comando para realizar la instalación de las dependencias 
-
-```bash
-npm i 
+// código de prueba
+console.log(contrasenaValida("2Fj(jjbFsuj")) // true
+console.log(contrasenaValida("eoZiugBf&g9")) // true
+console.log(contrasenaValida("hola")) // false
+console.log(contrasenaValuda("")) // false
 ```
-
