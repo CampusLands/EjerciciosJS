@@ -1,6 +1,6 @@
 import prompt from "prompt-sync"
-import {sumarRango} from "./modules/sumarRangoDeNumeros.js"
+import {distancia} from "./modules/distanciaEntreDosString.js"
 let input = prompt();
-let numeroInicial = input("Ingrese el numero 1: ")
-let numeroFinal = input("Ingrese el numero 2: ")
-console.log(sumarRango(Number(numeroInicial), Number(numeroFinal)));
+let texto = input("Ingrese el texto 1: ");
+let texto2 = input("Ingrese el texto 2: ");
+console.log(distancia(texto, texto2));
