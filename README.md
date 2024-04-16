@@ -1,13 +1,14 @@
-## 1. Contraseña válida
+## 8. Sumar rango de números
 
-Escribir una función llamada `contrasenaValida` que reciba un string y retorne `true` si el string es igual a "2Fj(jjbFsuj" o "eoZiugBf&g9". De lo contrario debe retornar `false`.
+Escribir una función llamada `sumarRango` que reciba dos argumentos: número inicial y número final. La función debe retornar la suma de los números en ese rango (incluyéndolos).
 
-```js
+**Nota:** puedes asumir que el número inicial va a ser menor o igual que el número final.
+
+```
 // escribe tu respuesta acá
 
 // código de prueba
-console.log(contrasenaValida("2Fj(jjbFsuj")) // true
-console.log(contrasenaValida("eoZiugBf&g9")) // true
-console.log(contrasenaValida("hola")) // false
-console.log(contrasenaValuda("")) // false
+console.log(sumarRango(0, 10)) // 55
+console.log(sumarRango(12, 14)) // 39
+console.log(sumarRango(5, 5)) // 0
 ```

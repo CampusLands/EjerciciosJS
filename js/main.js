@@ -1,10 +1,6 @@
 import prompt from "prompt-sync"
-import contrasenaValida from "./modules/contrasena.js"
+import {sumarRango} from "./modules/sumarRangoDeNumeros.js"
 let input = prompt();
-let opc = undefined;
-do{
-    let data = input("Ingrese la contraseña: ")
-    console.log(contrasenaValida(data));
-    console.log(`1. Repetir la validacion\n0. Terminar`);
-    opc = Number(input())
-}while(opc)
+let numeroInicial = input("Ingrese el numero 1: ")
+let numeroFinal = input("Ingrese el numero 2: ")
+console.log(sumarRango(Number(numeroInicial), Number(numeroFinal)));
