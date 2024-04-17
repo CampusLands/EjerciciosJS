@@ -1,0 +1,20 @@
+{
+  "name": "sintaxis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js/mani.js",
+  "type": "module",
+  "scripts": {
+<<<<<<< HEAD
+    "dev": "node js/app.js"
+=======
+    "dev": "node js/main.js"
+>>>>>>> 1932b8f (feat: :tada: Sintaxis basica de js)
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
